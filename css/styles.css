@@ -1,0 +1,13 @@
+body {
+  background-color: darkgreen;
+}
+
+.container {
+  border: 20px;
+  padding: 20px;
+
+}
+
+.jumbotron {
+  background-color: lightgreen;
+}
