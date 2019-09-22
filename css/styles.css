@@ -3,11 +3,12 @@ body {
 }
 
 .container {
-  border: 20px;
+
   padding: 20px;
 
 }
 
 .jumbotron {
   background-color: lightgreen;
+  text-align: center;
 }
