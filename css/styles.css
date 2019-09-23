@@ -1,5 +1,6 @@
 body {
-  background-color: darkgreen;
+  background-color: black;
+  color: white
 }
 
 .container {
@@ -9,6 +10,24 @@ body {
 }
 
 .jumbotron {
-  background-color: lightgreen;
+  background-color: ;
   text-align: center;
+  color: black;
+
+}
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: none;
+
+}
+
+.button:hover {
+  background-color: green;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
