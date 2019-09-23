@@ -1,31 +1,17 @@
-// Front-End logic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Back-End logic
 $(document).ready(function() {
-  $("#mainForm").submit(function(event) {
-    var firstName = $("input#firstName").val();
-    var emailAddress = $("input#emailAddress").val();
-    var firstName = $("input#firstName").val();
-    var firstName = $("input#firstName").val();
-    event.preventDefault()
-  })
-  });
+  $("#submitForm").click(function(){
+      var firstName = $("input#firstName").val();
+      var email = $("input#emailAddress").val();
+      alert(firstName);
+      alert(email);
+      event.preventDefault();
+
+});
+
+
+    });
+
+
+
+// Front-End logic
