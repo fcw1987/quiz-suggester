@@ -12,6 +12,7 @@ $(document).ready(function() {
       $("#swifthide").hide();
 
 
+
       if (result == 1 || result == 2) {
         $("#javaScript").show();
       }
@@ -30,6 +31,9 @@ $(document).ready(function() {
       else {
         alert("Error has been detected");
       }
+      document.getElementById('emailResult').innerHTML = email;
+      document.getElementById('nameResult').innerHTML = firstName;
+
 
     event.preventDefault();
 
