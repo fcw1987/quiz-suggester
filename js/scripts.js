@@ -29,7 +29,7 @@ $(document).ready(function() {
         $("#swift").show();
       }
       else {
-        alert("Error has been detected");
+        alert("Error has been detected! Be sure that you select a value for between 1-10 on the last question.");
       }
       document.getElementById('emailResult').innerHTML = email;
       document.getElementById('nameResult').innerHTML = firstName;
