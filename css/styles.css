@@ -9,6 +9,12 @@ body {
 
 }
 
+.well {
+  background-color: tan;
+  text-align: center;
+  color: black;
+
+}
 .jumbotron {
   background-color: tan;
   text-align: center;
