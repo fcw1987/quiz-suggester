@@ -1,149 +1,153 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Programming Language Suggestion Quiz </title>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <div class="container">
 
-      <div class="well" >
-        <h1><b>Have you ever considered learning a Computer Programming Language?</b></h1><br>
-          <p>If you have take this quiz and learn what Language might be the best for you! It doesnt really matter what you pick to start with, but finding one that fits your needs will make it more fun and enjoyable. <br> <br> Ive persobaly had a lot of fun learning JavaScript and JQuery and I'm looking forward to trying out Swift for iOS app developemnt when I'm done at Epicodus.</p>
-      </div>
-      <form class="mainForm" id=mainForm name=mainForm>
-        <div class="form-group">
-          <label for="name">What is your name?</label>
-          <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+        <div class="well">
+            <h1><b>Have you ever considered learning a Computer Programming Language?</b></h1>
+            <br>
+            <p>If you have take this quiz and learn what Language might be the best for you! It doesnt really matter what you pick to start with, but finding one that fits your needs will make it more fun and enjoyable.
+                <br>
+                <br> Ive persobaly had a lot of fun learning JavaScript and JQuery and I'm looking forward to trying out Swift for iOS app developemnt when I'm done at Epicodus.</p>
         </div>
-        <div class="form-group">
-          <label for="emailAddress">What is your email address?</label>
-          <input required type="email" class="form-control" id="emailAddress" placeholder="name@example.com" >
-        </div>
-        <h3><b>Select all areas of interest:</b></h3>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label" for="">
-            Do you enjoy Graphic Design?
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label" for="">
-            Do you enjoy solving puzzels?
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label" for="">
-            Do you like to build things?
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label" for="">
-            Do you like to type <em>A LOT</em>?
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label" for="">
-          Do you like playing video games?
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label" for="">
-            Do you like sports?
-          </label>
-        </div>
-        <h3><b>Would you rather?</b></h3>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="frontEndBackEndRadios" id="" value="" >
-            <label class="form-check-label" for="">
-              Work on the "Front-End" (The part that the user will see and interact with)?
-            </label>
-        </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="frontEndBackEndRadios" id="" value="">
-            <label class="form-check-label" for="">
-              Work on the "Back-End" (The logic part or the <em>how</em> it works)?
-            </label>
-          </div>
-          <h3>What Platform would you like to develop for?</h3>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1"></label>
-            <select class="form-control" id="platformSelect">
-              <option>SELECT ONE</option>
-              <option>Websites</option>
-              <option>MacOS/iOS</option>
-              <option>Windows</option>
-              <option>Android</option>
-              <option>Linux</option>
-            </select>
-          </div>
-          <h3><b>What is your preference?</b></h3>
-          <div class="form-check">
-              <input class="form-check-input" type="radio" name="platformUsePref" id="" value="">
-              <label class="form-check-label" for="">
-                Using Apps on a phone or tablet?
-              </label>
-          </div>
+        <form class="mainForm" id=mainForm name=mainForm>
+            <div class="form-group">
+                <label for="name">What is your name?</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <label for="emailAddress">What is your email address?</label>
+                <input required type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+            </div>
+            <h3><b>Select all areas of interest:</b></h3>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="platformUsePref" id="" value="">
-              <label class="form-check-label" for="">
-                Running software on a Laptop or Desktop?
-              </label>
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label" for="">
+                    Do you enjoy Graphic Design?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label" for="">
+                    Do you enjoy solving puzzels?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label" for="">
+                    Do you like to build things?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label" for="">
+                    Do you like to type <em>A LOT</em>?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label" for="">
+                    Do you like playing video games?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label" for="">
+                    Do you like sports?
+                </label>
+            </div>
+            <h3><b>Would you rather?</b></h3>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="frontEndBackEndRadios" id="" value="">
+                <label class="form-check-label" for="">
+                    Work on the "Front-End" (The part that the user will see and interact with)?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="frontEndBackEndRadios" id="" value="">
+                <label class="form-check-label" for="">
+                    Work on the "Back-End" (The logic part or the <em>how</em> it works)?
+                </label>
+            </div>
+            <h3>What Platform would you like to develop for?</h3>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1"></label>
+                <select class="form-control" id="platformSelect">
+                    <option>SELECT ONE</option>
+                    <option>Websites</option>
+                    <option>MacOS/iOS</option>
+                    <option>Windows</option>
+                    <option>Android</option>
+                    <option>Linux</option>
+                </select>
+            </div>
+            <h3><b>What is your preference?</b></h3>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="platformUsePref" id="" value="">
+                <label class="form-check-label" for="">
+                    Using Apps on a phone or tablet?
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="platformUsePref" id="" value="">
+                <label class="form-check-label" for="">
+                    Running software on a Laptop or Desktop?
+                </label>
             </div>
             <h3><b>On a scale of 1-10 how much experience do you currently have with programming?</b></h3>
             <div class="form-group">
 
                 <select class="form-control" name="result" id="result">
-                  <option value=1000>SELECT A NUMBER</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
+                    <option value=1000>SELECT A NUMBER</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
                 </select>
-              </div>
+            </div>
 
-              </select>
-              <button class="button" type="submit" id="submitForm">Click here to see whats language is suggested based on your answers.</button>
-              </form>
-              <br>
+            </select>
+            <button class="button" type="submit" id="submitForm">Click here to see whats language is suggested based on your answers.</button>
+        </form>
+        <br>
 
-              <div id="javaScript">
-                <img src="media/js.png" alt="JavaScript logo" height="100px" width="100px">
-                <h4>  <span id="nameResult"></span>! You should consider leanring JavaScript! I'll send some helpful links to you email address:  <span id="emailResult"></span> </h4>
-              </div>
-              <div id="swift">
-                <img src="media/swift.png" alt="swift logo" height="100px" width="100px">
-                <h4>You should consider leanring Swift! Ill send some helpful links to you email address:<span></span> </h4>
-              </div>
-              <div id="cSharp">
-                <img src="media/c.png" alt="c sharp logo" height="100px" width="100px">
-                <h4>You should consider leanring C#! Ill send some helpful links to you email address:<span></span> </h4>
-              </div>
-              <div id="go">
-                <img src="media/go.png" alt="go! logo" height="100px" width="100px">
-                <h4>You should consider leanring Go! Ill send some helpful links to you email address:<span></span> </h4>
-              </div>
-              <div id="python">
-                <img src="media/python.png" alt="python logo" height="100px" width="100px">
-                <h4>You should consider leanring Python! Ill send some helpful links to you email address:<span></span> </h4>
-              </div>
+        <div id="javaScript">
+            <img src="media/js.png" alt="JavaScript logo" height="100px" width="100px">
+            <h4>  <span id="nameResult"></span>! You should consider leanring JavaScript! I'll send some helpful links to you email address:  <span id="emailResult"></span> </h4>
+        </div>
+        <div id="swift">
+            <img src="media/swift.png" alt="swift logo" height="100px" width="100px">
+            <h4>You should consider leanring Swift! Ill send some helpful links to you email address:<span></span> </h4>
+        </div>
+        <div id="cSharp">
+            <img src="media/c.png" alt="c sharp logo" height="100px" width="100px">
+            <h4>You should consider leanring C#! Ill send some helpful links to you email address:<span></span> </h4>
+        </div>
+        <div id="go">
+            <img src="media/go.png" alt="go! logo" height="100px" width="100px">
+            <h4>You should consider leanring Go! Ill send some helpful links to you email address:<span></span> </h4>
+        </div>
+        <div id="python">
+            <img src="media/python.png" alt="python logo" height="100px" width="100px">
+            <h4>You should consider leanring Python! Ill send some helpful links to you email address:<span></span> </h4>
+        </div>
 
+</body>
 
-
-  </body>
 </html>
